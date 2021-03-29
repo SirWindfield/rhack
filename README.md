@@ -64,6 +64,16 @@ yay rhack
 cargo install rhack
 ```
 
+### Homebrew (Linuxbrew)
+
+@SirWindfield provides a formula in their [homebrew-tap](https://github.com/SirWindfield/homebrew-tap) and pre-built bottles built using GitHub Actions:
+
+```console
+$ brew install sirwindfield/tap/rhack
+```
+
+The installation falls back to building from source if an appropiate bottle could not be found.
+
 ### From source
 
 ```
